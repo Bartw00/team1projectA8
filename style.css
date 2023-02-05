@@ -75,14 +75,21 @@ footer a i:first-of-type{
 }
 
 
-/*
-@media all and (max-width:992px){
-  form{
-    width:75%;
-    justify-content: center;
-    text-align: center;
-  }
-}*/
+
+/* Sekcja course */
+
+p.course-text{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a.btn-secondary{
+  background-color: transparent;
+  color: black;
+}
+
+
+
 
 
 
