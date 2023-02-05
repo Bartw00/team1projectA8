@@ -97,6 +97,24 @@ footer a i:first-of-type {
 
 
 
+/* Sekcja course */
+
+p.course-text{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a.btn-secondary{
+  background-color: transparent;
+  color: black;
+}
+
+
+
+
+
+
+
 /*============= SECTION =============*/
 
 /* .narrow {
