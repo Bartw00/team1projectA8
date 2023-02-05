@@ -95,6 +95,13 @@ footer a i:first-of-type {
   color: red;
 }
 
+h1 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
 
 
 /* Sekcja course */
