@@ -78,7 +78,7 @@ footer a i:first-of-type{
 /* Sekcja course */
 
 p.course-text{
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -87,11 +87,7 @@ a.btn-secondary{
   color: black;
 }
 
-a.btn-secondary:hover{
-  font-size: 20px;
-  transform: 0.8s linear 0.3s;
 
-}
 
 
 
