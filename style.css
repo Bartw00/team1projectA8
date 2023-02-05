@@ -1,32 +1,56 @@
 /* nav */
-.navbar{
-background-color: black;
-font-weight: bold;
-font-size: 0.9rem;
-letter-spacing: 0.1rem;
+.navbar {
+  background-color: orange;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
 }
 
-.navbar-brand > img{
- height: 1.8rem;
+.navbar-brand > img {
+  height: 1.8rem;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
   padding-right: 0.4rem;
+  color: black;
 }
 
-.navbar .navbar-nav .nav-link:hover{
-color: red;
+.navbar .navbar-nav .nav-link:hover {
+  color: black;
 }
 
+.btn-outline-secondary {
+  color: yellow;
+  border-color: yellow;
+}
+
+.btn-outline-secondary:hover {
+  border-color: yellow;
+  background-color: yellow;
+  color: black;
+}
 
 /* landing */
 
-.home-inner{
-  background-image: url(img/computers.png);
+body h2, h3{
+  color: #002D51;
+}
+
+body{
+  color: #002D51;
+}
+
+.svg-inline--fa {
+  color: #FF552F;
+}
+
+
+.home-inner {
+  background-image: url(img/wiosna-tlo.png);
   background-size: contain;
 }
 
-.caption{
+.caption {
   width: 100%;
   color: white;
   position: absolute;
@@ -34,45 +58,65 @@ color: red;
   z-index: 1;
 }
 
-
-.line{
+.line {
   margin-bottom: 0;
-
 }
 
-.jumbotron{
+.jumbotron {
   margin-bottom: 0;
   padding-bottom: 0;
+  background-color: #8DBCBE;
 }
 
-.features-list{
+.features-list {
   list-style: none;
 }
 
-.client{
+.client {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
 }
 
-footer img{
+footer img {
   height: 3rem;
   margin: 1rem 0;
 }
 
-footer a:hover{
+footer a:hover {
   color: gray;
 }
 
-
-
-footer a{
+footer a {
   color: black;
 }
-      
-footer a i:first-of-type{
+
+footer a i:first-of-type {
   color: red;
 }
+
+h1 {
+  font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Sekcja course */
+
+p.course-text{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a.btn-secondary{
+  background-color: transparent;
+  color: black;
+}
+
+
 
 
 
@@ -105,7 +149,6 @@ footer a i:first-of-type{
   background-color: #189582;
   color: white;
 } */
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
